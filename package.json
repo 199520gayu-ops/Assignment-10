@@ -1,15 +1,16 @@
 {
   "name": "reactjs",
+  "homepage": "https://199520gayu-ops.github.io/Assignment-10/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "cp dist/index.html dist/404.html",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build",
-    "lint": "eslint .",
+    "postbuild": "copy dist/index.html dist/404.html",
+  "deploy": "gh-pages -d dist",
+  "predeploy": "npm run build",
+    "lint": "eslint",
     "preview": "vite preview"
   },
   "dependencies": {
